@@ -1,0 +1,12 @@
+python3 -u ./autotabular/classification/train.py \
+            --train_input alita_dev.criteo_100w \
+            --output_dir tmp/tabular_test.outputs \
+            --data_format table \
+            --label_cols "['label']" \
+            --feature_cols "['c1','c2','c3','c4','c5','c6','c7','c8','c9','c10','c11','c12','c13','d1','d2','d3','d4','d5','d6','d7','d8','d9','d10','d11','d12','d13','d14','d15','d16','d17','d18','d19','d20','d21','d22','d23','d24','d25','d26']" \
+            --time_budget 300 \
+            --metric roc_auc \
+            --estimator_list '["lgbm","xgboost"]' \
+            --seed 1 \
+            --fit_kwargs '{"n_jobs":2,"n_concurrent_trials":2,"min_sample_size":10000,"retrain_full":0,"log_type":"all"}' \
+            --hp_domain '{"n_estimators":[4,512],"max_leaves":[4,512],"learning_rate":[0.001,1.0]}'

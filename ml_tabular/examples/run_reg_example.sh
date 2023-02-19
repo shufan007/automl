@@ -1,0 +1,11 @@
+python3 -u ./autotabular/regression/train.py \
+        --train_input ./examples/data/boston_data.csv \
+        --output_dir tmp/tabular_test.outputs \
+        --val_input ./examples/data/boston_data.csv \
+        --data_format csv \
+        --label_cols "['MEDV']" \
+        --feature_cols "['CRIM','ZN','INDUS','CHAS','NOX','RM','AGE','DIS','RAD','TAX','PTRATIO','B','LSTAT']" \
+        --time_budget 60 \
+        --metric rmse \
+        --estimator_list '["lgbm","xgboost"]' \
+        --seed 1

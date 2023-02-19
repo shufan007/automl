@@ -1,0 +1,6 @@
+numpy>=1.21.6
+torch>=1.8
+ray>=2.0.0
+flaml>=1.1.0
+xgboost==0.90
+lightgbm==2.3.1

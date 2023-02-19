@@ -1,0 +1,15 @@
+*.outputs/
+__pycache__/
+*.pyc
+*.log
+.cache
+kubernetes
+checkpoints/
+*_debug*
+
+.ipynb_checkpoints
+*.DS_Store
+
+
+
+
