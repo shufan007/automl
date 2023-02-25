@@ -1,0 +1,1 @@
+python3 $(dirname "$0")/train.py ${@:1}
