@@ -1,4 +1,4 @@
-# Copyright (c) DiDi Group. All rights reserved.
+
 from typing import List, Callable
 
 import torch

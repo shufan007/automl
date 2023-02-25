@@ -1,4 +1,3 @@
-#  Copyright (c) 2022 DiDi Global Inc. All Rights Reserved.
 
 import pyarrow.dataset as ds
 import os

@@ -1,4 +1,3 @@
-# Copyright (c) DiDi Group. All rights reserved.
 
 class Node(object):
     """

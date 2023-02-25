@@ -1,4 +1,3 @@
-# Copyright (c) DiDi Group. All rights reserved.
 
 TRAIN_LOG_FILE = 'experiment_info.log'
 MODEL_PARAMS_FILE = 'model_params.txt'

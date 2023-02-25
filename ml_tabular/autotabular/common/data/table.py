@@ -1,4 +1,4 @@
-# Copyright (c) DiDi Group. All rights reserved.
+
 import os
 import socket
 

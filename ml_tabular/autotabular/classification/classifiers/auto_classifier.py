@@ -1,4 +1,4 @@
-# Copyright (c) DiDi Group. All rights reserved.
+
 import os
 from typing import Optional
 import numpy as np

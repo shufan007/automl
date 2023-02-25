@@ -1,4 +1,4 @@
-# Copyright (c) DiDi Group. All rights reserved.
+
 from typing import Optional
 from torch.utils.data import Dataset
 
